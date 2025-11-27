@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #111;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item, .home-icon {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-item:hover, .home-icon:hover {
+    color: #1e90ff;
+}
+
+/* Content area */
+#content {
+    padding: 20px;
+}

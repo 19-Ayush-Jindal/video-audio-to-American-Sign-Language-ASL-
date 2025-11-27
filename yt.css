@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f4ff, #e6f7ff);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #0a3d62;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #4b7bec;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #4b7bec;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #3867d6;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.card {
+    width: 48%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    text-align: center;
+    color: #0a3d62;
+    margin-bottom: 15px;
+}
+
+video, iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid #0a3d62;
+}
+
+#downloadFinalBtn {
+    width: 100%;
+    background: #20bf6b;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#downloadFinalBtn:hover {
+    background: #0fb96c;
+}
+
+#fastBtn {
+    margin-top: 10px;
+    width: 100%;
+    background: #f7b731;
+}
+
+#fastBtn:hover {
+    background: #e0a025;
+}

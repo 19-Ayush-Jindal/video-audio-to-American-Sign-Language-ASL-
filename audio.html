@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speech to Sign Language</title>
+  <link rel="stylesheet" href="audio_style.css" />
+  <!-- <script defer src="script.js"></script> -->
+  <script defer src="audio.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>Speech to Sign Language Converter</h1>
+
+    <div class="controls">
+      <button id="recordBtn" class="btn blue">🎙️ Record Speech</button>
+      <label class="btn green">
+        📤 Upload Audio
+        <input type="file" id="audioUpload" accept="audio/*" hidden />
+      </label>
+      <button id="processBtn" class="btn purple">▶️ Process</button>
+    </div>
+
+    <div class="output">
+      <div class="card">
+        <h2>Recognized Speech:</h2>
+        <p id="transcript">—</p>
+      </div>
+
+      <div class="card">
+        <h2>Sign Language Animation:</h2>
+        <video id="signVideo"  class="video" controls autoplay></video>
+        <p id="noAnimation" class="placeholder">No animation yet</p>

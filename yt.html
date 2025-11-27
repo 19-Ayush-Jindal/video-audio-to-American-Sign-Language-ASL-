@@ -1,0 +1,36 @@
+<h2>YouTube → Sign Language</h2>
+
+<link rel="stylesheet" href="yt.css">
+
+<div style="text-align:center;">
+    <input id="ytUrl" placeholder="Enter YouTube URL" style="width:400px">
+    <button id="startBtn">Start</button>
+</div>
+
+<div id="container">
+    
+    <!-- YOUTUBE CARD -->
+    <div class="card">
+        <h3>YouTube Video</h3>
+
+        <iframe
+            id="ytPlayer"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+            style="display:none"
+        ></iframe>
+    </div>
+
+    <!-- SIGN CARD -->
+    <div class="card">
+        <h3>Sign Language Video</h3>
+
+        <video id="signPlayer" muted autoplay playsinline></video>
+
+        <a id="downloadLink" href="final_output.mp4" download style="display:none;">
+            <button>Download Video</button>
+        </a>
+    </div>
+
+</div>
