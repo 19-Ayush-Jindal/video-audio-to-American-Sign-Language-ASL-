@@ -90,8 +90,8 @@ This project is licensed under the MIT License.
 👤 Author
 
 Shourya Pachauri
-B.Tech CSE Student | AI & Web Development Enthusiast
+B.Tech CSE Student | AI & Web Development Enthusiast<br>
 Ayush Jindal 
-B.Tech CSE Student | DSA & Web Development Enthusiast
+B.Tech CSE Student | DSA & Web Development Enthusiast<br>
 Chanda
 B.Tech CSE Student | DSA & Web Development Enthusiast
