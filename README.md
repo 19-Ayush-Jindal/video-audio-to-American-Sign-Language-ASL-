@@ -1,6 +1,6 @@
 # 🧏‍♂️ Text-to-Sign Language Translation System
 
-An AI-powered accessibility project that converts **spoken or written content from videos into Sign Language**, enabling inclusive communication for the deaf and hard-of-hearing community.
+An AI-powered accessibility project that converts **spoken or written content from videos into Sign Language**, enabling inclusive communication for deaf and hard-of-hearing community.
 
 ---
 
